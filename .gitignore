@@ -55,6 +55,4 @@ Thumbs.db
 
 # Logs
 *.log
-data/character_performance.csv
-data/character_performance.csv
-data/character_performance.csv
+/data
