@@ -1,0 +1,50 @@
+USER
+id 
+name
+email
+emailVerified // Majorly not used  for now 
+image == profile picture // Majorly not used 
+username 
+createdAt
+updatedAt
+
+ROOM 
+id
+name = // not used for now
+description = // not used for now
+creatorId == userId who created the room
+joinCode == unique code to join the room // Majorly not used for now
+maxPlayers == no of players allowed in the room 
+isPrivate == // Majorly not used for now
+status == // Majorly not used for now
+createdAt
+updatedAt
+expiresAt
+codeValid 
+textLength == length of the text to be typed 
+timeLimit == time of the room in seconds
+customText // It  null
+
+
+ROOM_MEMBER // NOT USED FOR NOW
+
+TYPING_SPEEDS 
+id 
+userId
+roomId
+wpm  = words per minute
+correctword = no of correct words typed
+duration == time taken to complete the text
+createdAt
+userStatus == left or not // Majorly not used for now
+
+CHARACTER_PERFORMANCE 
+id
+char == char is encounder during typing eg d, a, t etc
+avgTimePerChar == AVERAGE time taken to click on this character in the maximum time
+maxTimePerChar == MAX  time taken to click on this character in the maximum time
+errorFrequency == not of errors made on this character per sesssion 
+typingSpeedId == room id 
+userId == user id 
+
+taken the duration from TYPING_SPEEDS not use Room id

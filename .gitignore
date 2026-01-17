@@ -1,0 +1,60 @@
+# Typerhouse ML Environment
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+
+# Model files
+*.pkl
+*.h5
+*.hdf5
+*.joblib
+*.model
+
+# Data files (if large)
+*.csv.gz
+*.parquet
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+data/character_performance.csv
+data/character_performance.csv
+data/character_performance.csv
