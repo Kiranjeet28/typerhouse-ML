@@ -39,7 +39,6 @@ wheels/
 .vscode/
 
 # Model files
-*.pkl
 *.h5
 *.hdf5
 *.joblib
